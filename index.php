@@ -64,10 +64,21 @@
 			</section>
 			<section>	
 				<h1>Education</h1><br/>
-				
+					<section>
+						<h1>Most recent education: </h1>
+						<label>School Name: </label>
+						<input type="text" value="" name"school">
+						<label>Year of Graduation: </label>
+						<input type="date" name="graddate">
+						<label>Degree, Major and/or Minor</label>
+						<input type="text" value="" name="degree">
+						<label>Awards and Honors</label>
+						<textarea name="awardsandhonors" placeholder="Include any academic acheivements here." rows="4" cols="60" wrap="soft"></textarea>
+					</section>
 			</section>
 			<section>
 				<h1>Qualifications and Skills</h1><br/>
+				<textarea name="qualsandskills" rows="4" cols="60" wrap="soft" placeholder="Include any prefessional or educational certificates you've received here. As well as any other skills and qualifications that you'd like to add."></textarea>
 			</section>
 			<section>
 				<h1>Objective</h1><br/>
