@@ -11,9 +11,9 @@
 				<label>Last Name: </label>
 				<input type="text" value="" name="lastname" maxlength="25"><br/>
 				<label>Phone Number: </label>
-				<input type="number" value="" name="phonenumber" min="10" max="11"><br/>
+				<input type="tel" value="" name="phonenumber"><br/>
 				<label>Email Address: </label>
-				<input type="email" value="" name="emailaddress"><br/>
+				<input type="email" value="" name="email"><br/>
 				<label>Mailing Address: </label>
 				<input type="text" value="" name"address"><br/>
 			</section>	
@@ -82,6 +82,7 @@
 			</section>
 			<section>
 				<h1>Objective</h1><br/>
+				<textarea name"objective" rows="4" cols="60" wrap="soft" placeholder="Write a short paragraph that highlights a job "><>
 			</section>
 		</form>
 	</body>
