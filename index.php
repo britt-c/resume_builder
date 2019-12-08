@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Resume Builder</title>
@@ -60,16 +61,19 @@
 					</section>
 			</section>
 			<section>	
-				<h1>Education</h1><br/>
+				<h1 margin:35px; >Education</h1><br/>
 					<section>
-						<h1>Most recent education: </h1>
-						<label>School Name: </label>
+						<h1>Most recent education: </h1><br/>
+						<label>School Name: </label><br/>
 						<input type="text" value="" name"school">
-						<label>Year of Graduation: </label>
+						<br/>
+						<label>Year of Graduation: </label><br/>
 						<input type="date" name="graddate">
-						<label>Degree, Major and/or Minor</label>
+						<br/>
+						<label>Degree, Major and/or Minor</label><br/>
 						<input type="text" value="" name="degree">
-						<label>Awards and Honors</label>
+						<br/>
+						<label>Awards and Honors</label><br/>
 						<textarea name="awardsandhonors" placeholder="Include any academic acheivements here." rows="4" cols="60" wrap="soft"></textarea>
 					</section>
 			</section>
@@ -81,6 +85,7 @@
 				<h1>Summary</h1><br/>
 				<textarea name"summary" rows="4" cols="60" wrap="soft" placeholder="Write a short paragraph that highlights your skills and experience and give hiring managers a glimpse of what you're capable of before they jump into your resume! "></textarea>
 			</section>
+			<input type="submit" value="submit">
 		</form>
 	</body>
 </html>
