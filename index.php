@@ -29,7 +29,6 @@
 						<input type="date"  name="startdate"><br/>
 						<label>Employment End Date: </label>
 						<input type="date" name="enddate"><br/>
-						<input type="checkbox" value="Current Employer" name="currentjob">I currently work here.<br/>
 						<label>Job Description: </label><br/>
 						<textarea name="job1description" placeholder="Describe your responsibilities here..." rows="4" cols="60" wrap="soft"></textarea><br/>
 					</section>
@@ -43,7 +42,6 @@
 						<input type="date"  name="startdate2"><br/>
 						<label>Employment End Date: </label>
 						<input type="date" name="enddate2"><br/>
-						<input type="checkbox" value="Current Employer" name="currentjob2">I currently work here.<br/>
 						<label>Job Description: </label><br/>
 						<textarea name="job2description" placeholder="Describe your responsibilities here..." rows="4" cols="60" wrap="soft"></textarea><br/>
 					</section>
@@ -57,7 +55,6 @@
 						<input type="date"  name="startdate3"><br/>
 						<label>Employment End Date: </label>
 						<input type="date" name="enddate3"><br/>
-						<input type="checkbox" value="Current Employer" name="currentjob3">I currently work here.<br/>
 						<label>Job Description: </label><br/>
 						<textarea name="job3description" placeholder="Describe your responsibilities here..." rows="4" cols="60" wrap="soft"></textarea><br/>
 					</section>
@@ -81,8 +78,8 @@
 				<textarea name="qualsandskills" rows="4" cols="60" wrap="soft" placeholder="Include any prefessional or educational certificates you've received here. As well as any other skills and qualifications that you'd like to add."></textarea>
 			</section>
 			<section>
-				<h1>Objective</h1><br/>
-				<textarea name"objective" rows="4" cols="60" wrap="soft" placeholder="Write a short paragraph that highlights a job "><>
+				<h1>Summary</h1><br/>
+				<textarea name"summary" rows="4" cols="60" wrap="soft" placeholder="Write a short paragraph that highlights your skills and experience and give hiring managers a glimpse of what you're capable of before they jump into your resume! "></textarea>
 			</section>
 		</form>
 	</body>
